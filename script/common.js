@@ -31,6 +31,7 @@ $('.notice li:first').click(function(){
     $('#modal').addClass('active')
 })
 
-$('.close').
-removeClass('active')
+$('.close').click(function(){
+    $('#modal').removeClass('active')
+})
 })
